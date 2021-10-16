@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+h4 {
+    margin: 10px 0px;
+
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+/* NAVIGATION */
+
+a:hover {
+    color:yellow;
+}
+
+a {
+    color: rgb(110, 110, 196);
+    text-decoration: underline;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding: 8px 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 25px;
+}
+
+.nav-links {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    list-style: none;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: rgb(147, 147, 221);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/* USERCARD Start */
+
+.container{
+    background-color:whitesmoke;
+    height: 400px;
+    border: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.card { 
+margin-bottom: 10px;
+   margin-left: 20px;
+
+}
+
+.userinfo  {
+    height: 130px;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.usercard {
+    background-color: cornflowerblue;
+    height: 120px;
+}
+
+.small {
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.link {
+    color: rgb(43, 101, 226);
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+/* Details; such as cards and icons*/
+
+#edit{
+    margin-top: 10px;
+}
+
+.educard {
+    background-color:whitesmoke;
+    padding: 20px;
+    min-height: 50px;
+    border: 1px solid gray
+
+}
+.box1{
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: gray;
+    color: whitesmoke;
+}
+.box {
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+  .usericon{
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.users, .users2 {
+    margin: 5px;
+    display: flex;
+    
+}
+
+.users2 {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    
+}
+
+/*.education {
+    margin-top: 20px;
+}*/
+
+.viewmore {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
