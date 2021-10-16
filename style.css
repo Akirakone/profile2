@@ -44,6 +44,7 @@ a {
 
 .nav-title {
     font-size: 25px;
+    margin-left: 150px;
 }
 
 .nav-links {
@@ -64,6 +65,7 @@ a {
     height: 30px;
     width: 100px;
     border: 1px solid black;
+    margin-left: 600px;
 }
 
 /* USERCARD Start */
